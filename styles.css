@@ -1,8 +1,7 @@
 body {
     background-image:url(./assets/james-webb-space-telescope.jpg);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 200px;
+    background-size: 100% 500px;
     margin: 0;
     padding: 0;
     font-family: Consolas, 'Courier New', Courier, monospace;
@@ -10,15 +9,18 @@ body {
 
 .container {
     align-items: center;
-    max-width: 1000px;
     padding-left: 10%;
     padding-right: 10%;
     font-family: 'Roboto', sans-serif;
 }
 
-.cvOfDeveloper h3 {
-    color: #ff0099;
-    font-size: 40px;
+.cvOfDeveloper {
+    color: #fff;
+    font-size: 60px;
+}
+
+.wiki {
+    margin-top: 200px;
 }
 
 .wiki h3 {
